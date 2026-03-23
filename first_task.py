@@ -35,6 +35,8 @@ B.next = ListNode(6)
 B.next.next = commonPart
 
 result = intersection(A, B)
-if result:
-    print(result, result.value)
+assert result == commonPart
+
+print("Успех")
+
 
